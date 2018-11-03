@@ -25,7 +25,7 @@ def home():
 
     print("here in home function")
 
-
+    ImgClassifier.simple_msg()
 
     return render_template('home.html')
 

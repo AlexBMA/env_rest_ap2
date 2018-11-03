@@ -18,6 +18,8 @@ class ImgClassifier:
     path_model = "model4.h5"
     path_pickle = "lb.pickle3"
 
+
+
     @classmethod
     def transform_image(cls,image):
         image = cv2.resize(image, (32, 32))
@@ -26,6 +28,10 @@ class ImgClassifier:
         image = np.expand_dims(image, axis=0)
 
         return image
+
+    @staticmethod
+    def simple_msg():
+        print("main")
 
     @staticmethod
     def classify_img(path_img, path_model, path_pickle):
