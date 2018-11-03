@@ -12,6 +12,8 @@ from flask import (
 app = Flask(__name__)
 
 
+from clasify import ImgClassifier
+
 @app.route('/')
 def home():
     """
@@ -22,6 +24,8 @@ def home():
     """
 
     print("here in home function")
+
+
 
     return render_template('home.html')
 
