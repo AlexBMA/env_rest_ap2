@@ -7,6 +7,7 @@ from flask import (
 )
 
 
+
 # Create the application instance
 app = Flask(__name__)
 
@@ -23,6 +24,7 @@ def home():
     print("here in home function")
 
     return render_template('home.html')
+
 
 if __name__ == '__main__':
     # app.run(debug=True)
