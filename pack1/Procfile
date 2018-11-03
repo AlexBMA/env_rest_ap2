@@ -1,1 +1,1 @@
-web: gunicorn testappzeta
+web: gunicorn basicServer
