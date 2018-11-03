@@ -1,1 +1,1 @@
-web: gunicorn app: testappzeta
+web: gunicorn pack1: testappzeta
