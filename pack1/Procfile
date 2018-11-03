@@ -1,1 +1,1 @@
-web: gunicorn test-pipeline: testappzeta
+web: gunicorn app: testappzeta
